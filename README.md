@@ -1,4 +1,4 @@
-#  FATA Optimization (Version 1.0) 
+# FATA Optimization (Version 1.0) 
 ![GitHub](https://img.shields.io/github/license/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
 ![GitHub repo size](https://img.shields.io/github/repo-size/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
@@ -9,6 +9,8 @@
 ![GitHub stars](https://img.shields.io/github/stars/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
 ![GitHub watchers](https://img.shields.io/github/watchers/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
 ![GitHub contributors](https://img.shields.io/github/contributors/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
+
+---
 
 ## 📖 Overview
 Introducing an **efficient** and **innovative** swarm intelligence algorithm: the **Fata Morgana Algorithm (FATA)**. This algorithm is meticulously designed to tackle **complex continuous multi-type optimization problems**. 
@@ -97,12 +99,10 @@ For comparative analysis, consider exploring these notable optimization methods 
 - **AO (2024)**: A novel approach to optimization challenges.
 - **PO (2024)**: A powerful optimization methodology.
 - **RIME (2023)**: A cutting-edge algorithm for robust optimization.
-- **INFO (2022)**: A metaphor free optimization technique.
-- **RUN (2021)**: A metaphor free optimization solution.
+- **INFO (2022)**: A metaphor-free optimization technique.
+- **RUN (2021)**: A dynamic optimization solution.
 - **HGS (2021)**: A high-performance optimization strategy.
-- **SMA (2020)**: A sophisticated optimization method.
-- **HHO (2019)**: A pioneering optimization algorithm inspired by Harris Hawks.
+- **SMA (2020)**: A sophisticated multi-agent optimization method.
+- **HHO (2019)**: A pioneering optimization algorithm inspired by nature.
 
 ---
-
-Feel free to customize or expand upon this README further to enhance its appeal and clarity. If you have any more requests or need additional modifications, just let me know!
