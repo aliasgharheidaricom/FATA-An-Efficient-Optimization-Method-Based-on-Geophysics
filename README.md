@@ -49,7 +49,7 @@ Explore the captivating visuals related to the FATA optimization process and the
 |-------|-------|-------|
 | ![3D Mirage phenomenon](3D%20Mirage%20phenomenon.jpg) | ![FATA based on the mirage principle](FATA%20based%20on%20the%20mirage%20principle.jpg) | ![FATA optimization process in 3-dimension](FATA%20optimization%20process%20in%203-dimension.jpg) |
 | 3D representation of the mirage phenomenon. | FATA inspired by the mirage principle. | FATA optimization process illustrated in 3D. |
-| ![First refraction process of light](First%20refraction%20of%20light.jpg) | ![Reflection process of light](Reflection%20process%20of%20light.jpg) | ![Second refraction process of light](Second%20refraction%20process%20of%20light.jpg) |
+| ![First refraction process of light](First%20refraction%20process%20of%20light.jpg) | ![Reflection process of light](Reflection%20process%20of%20light.jpg) | ![Second refraction process of light](Second%20refraction%20process%20of%20light.jpg) |
 | Depiction of light's first refraction process. | Insightful view of the light reflection process. | Illustration of the second refraction of light. |
 | ![The formation of the rainbow](The%20formation%20of%20the%20rainbow.jpg) | ![Definite integration to evaluate the curve](a.%20definite%20integration%20to%20evaluate%20the%20curve.jpg) | ![Definite integration to evaluate the curve](b.%20definite%20integration%20to%20evaluate%20the%20curve.jpg) |
 | Image depicting rainbow formation. | Visual explanation of definite integration for curve evaluation. | Another representation of definite integration for curve evaluation. |
