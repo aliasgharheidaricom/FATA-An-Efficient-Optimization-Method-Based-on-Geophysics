@@ -14,18 +14,6 @@
 ## Photo Gallery
 Explore the captivating visuals related to the FATA optimization process and the fascinating phenomenon of mirages:
 
-| Image | Description |
-|-------|-------------|
-| ![3D Mirage phenomenon](3D%20Mirage%20phenomenon.jpg) | A stunning 3D representation of the mirage phenomenon. |
-| ![FATA based on the mirage principle](FATA%20based%20on%20the%20mirage%20principle.jpg) | Visual representation of FATA inspired by the mirage principle. |
-| ![FATA optimization process in 3-dimension](FATA%20optimization%20process%20in%203-dimension.jpg) | An illustration of the FATA optimization process in 3D space. |
-| ![First refraction process of light](First%20refraction%20process%20of%20light.jpg) | Detailed depiction of the first refraction process of light. |
-| ![Reflection process of light](Reflection%20process%20of%20light.jpg) | An insightful view of the reflection process of light. |
-| ![Second refraction process of light](Second%20refraction%20process%20of%20light.jpg) | Illustration of the second refraction process of light. |
-| ![The formation of the rainbow](The%20formation%20of%20the%20rainbow.jpg) | Captivating image depicting the formation of a rainbow. |
-| ![a. definite integration to evaluate the curve](a.%20definite%20integration%20to%20evaluate%20the%20curve.jpg) | Visual explanation of definite integration to evaluate the curve. |
-| ![b. definite integration to evaluate the curve](b.%20definite%20integration%20to%20evaluate%20the%20curve.jpg) | Another visual representation of definite integration to evaluate the curve. |
-
 ## 📖 Overview
 Introducing an **efficient** and **innovative** swarm intelligence algorithm: the **Fata Morgana Algorithm (FATA)**. This algorithm is meticulously designed to tackle **complex continuous multi-type optimization problems**. 
 
@@ -56,6 +44,17 @@ The promising results indicate that FATA possesses remarkable potential as a pow
 - **Avoiding Locally Optimal Solutions**: Employs advanced strategies to navigate around local optima.
 
 ---
+| Image | Description |
+|-------|-------------|
+| ![3D Mirage phenomenon](3D%20Mirage%20phenomenon.jpg) | 3D representation of the mirage phenomenon. |
+| ![FATA based on the mirage principle](FATA%20based%20on%20the%20mirage%20principle.jpg) | FATA inspired by the mirage principle. |
+| ![FATA optimization process in 3-dimension](FATA%20optimization%20process%20in%203-dimension.jpg) | FATA optimization process illustrated in 3D. |
+| ![First refraction process of light](First%20refraction%20process%20of%20light.jpg) | Depiction of light's first refraction process. |
+| ![Reflection process of light](Reflection%20process%20of%20light.jpg) | Insightful view of the light reflection process. |
+| ![Second refraction process of light](Second%20refraction%20process%20of%20light.jpg) | Illustration of the second refraction of light. |
+| ![The formation of the rainbow](The%20formation%20of%20the%20rainbow.jpg) | Image depicting rainbow formation. |
+| ![Definite integration to evaluate the curve](a.%20definite%20integration%20to%20evaluate%20the%20curve.jpg) | Visual explanation of definite integration for curve evaluation. |
+| ![Definite integration to evaluate the curve](b.%20definite%20integration%20to%20evaluate%20the%20curve.jpg) | Another representation of definite integration for curve evaluation. |
 
 ## 🛠️ Usage
 To utilize the FATA optimization algorithm, follow these easy steps:
