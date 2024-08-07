@@ -10,9 +10,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
 ![GitHub contributors](https://img.shields.io/github/contributors/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
 
----
-## Photo Gallery
-Explore the captivating visuals related to the FATA optimization process and the fascinating phenomenon of mirages:
+
 
 ## 📖 Overview
 Introducing an **efficient** and **innovative** swarm intelligence algorithm: the **Fata Morgana Algorithm (FATA)**. This algorithm is meticulously designed to tackle **complex continuous multi-type optimization problems**. 
@@ -45,18 +43,8 @@ The promising results indicate that FATA possesses remarkable potential as a pow
 
 ---
 ## Photo Gallery
-| Image | Description |
-|-------|-------------|
-| ![3D Mirage phenomenon](3D%20Mirage%20phenomenon.jpg) | 3D representation of the mirage phenomenon. |
-| ![FATA based on the mirage principle](FATA%20based%20on%20the%20mirage%20principle.jpg) | FATA inspired by the mirage principle. |
-| ![FATA optimization process in 3-dimension](FATA%20optimization%20process%20in%203-dimension.jpg) | FATA optimization process illustrated in 3D. |
-| ![First refraction process of light](First%20refraction%20process%20of%20light.jpg) | Depiction of light's first refraction process. |
-| ![Reflection process of light](Reflection%20process%20of%20light.jpg) | Insightful view of the light reflection process. |
-| ![Second refraction process of light](Second%20refraction%20process%20of%20light.jpg) | Illustration of the second refraction of light. |
-| ![The formation of the rainbow](The%20formation%20of%20the%20rainbow.jpg) | Image depicting rainbow formation. |
-| ![Definite integration to evaluate the curve](a.%20definite%20integration%20to%20evaluate%20the%20curve.jpg) | Visual explanation of definite integration for curve evaluation. |
-| ![Definite integration to evaluate the curve](b.%20definite%20integration%20to%20evaluate%20the%20curve.jpg) | Another representation of definite integration for curve evaluation. |
----
+Explore the captivating visuals related to the FATA optimization process and the fascinating phenomenon of mirages:
+
 | Image | Image | Image |
 |-------|-------|-------|
 | ![3D Mirage phenomenon](3D%20Mirage%20phenomenon.jpg) | ![FATA based on the mirage principle](FATA%20based%20on%20the%20mirage%20principle.jpg) | ![FATA optimization process in 3-dimension](FATA%20optimization%20process%20in%203-dimension.jpg) |
