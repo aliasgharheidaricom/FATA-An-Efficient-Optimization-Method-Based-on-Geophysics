@@ -10,7 +10,26 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
 ![GitHub contributors](https://img.shields.io/github/contributors/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
 
+<p align="center">
+  <img src="FATA logo.png" alt="FATA optimization algorithm" width="200">
+</p>
 
+<h1 align="center" style="font-family: 'Comic Sans MS', 'Comic Sans', cursive;">
+  Welcome to [FATA: An Efficient Optimization Method Based on Geophysics ]
+</h1>
+
+
+<p align="center">
+  <a href="https://github.com/your-username/your-repo/issues">
+    <img alt="Issues" src="https://img.shields.io/github/issues/your-username/your-repo?style=for-the-badge">
+  </a>
+  <a href="https://github.com/your-username/your-repo/pulls">
+    <img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/your-username/your-repo?style=for-the-badge">
+  </a>
+  <a href="https://github.com/your-username/your-repo/blob/master/LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/your-username/your-repo?style=for-the-badge">
+  </a>
+</p>
 
 ## 📖 Overview
 Introducing an **efficient** and **innovative** swarm intelligence algorithm: the **Fata Morgana Algorithm (FATA)**. This algorithm is meticulously designed to tackle **complex continuous multi-type optimization problems**. 
