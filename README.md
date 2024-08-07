@@ -189,10 +189,7 @@ If you utilize this code, please ensure to cite the primary paper on FATA:
 
 ---
 
-## 🔍 Other Optimization Methods
-For comparative analysis, consider exploring these notable optimization methods developed recently:
-
-## Other Optimization Methods
+## 🔍 Comapre FATA with other Optimization Methods
 For comparative analysis, consider exploring these notable optimization methods developed recently:
 
 - **(ECO) 2024:** An advanced optimization framework that enhances performance across various problem classes. 🔗 [ECO Project Page](http://www.aliasgharheidari.com/ECO.html)
