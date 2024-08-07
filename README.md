@@ -170,14 +170,17 @@ If you utilize this code, please ensure to cite the primary paper on FATA:
 ## 🔍 Other Optimization Methods
 For comparative analysis, consider exploring these notable optimization methods developed recently:
 
-- **ECO (2024)**: An advanced optimization framework.
-- **AO (2024)**: A novel approach to optimization challenges.
-- **PO (2024)**: A powerful optimization methodology.
-- **RIME (2023)**: A cutting-edge algorithm for robust optimization.
-- **INFO (2022)**: A metaphor-free optimization technique.
-- **RUN (2021)**: A dynamic optimization solution.
-- **HGS (2021)**: A high-performance optimization strategy.
-- **SMA (2020)**: A sophisticated multi-agent optimization method.
-- **HHO (2019)**: A pioneering optimization algorithm inspired by nature.
+## Other Optimization Methods
+For comparative analysis, consider exploring these notable optimization methods developed recently:
+
+- **(ECO) 2024:** An advanced optimization framework that enhances performance across various problem classes. 🔗 [ECO Project Page](http://www.aliasgharheidari.com/ECO.html)
+- **(AO) 2024:** A novel approach to optimization challenges, boasting improved convergence rates and robustness. 🔗 [AO Project Page](http://www.aliasgharheidari.com/AO.html)
+- **(PO) 2024:** A powerful optimization methodology focused on solving complex multi-modal functions efficiently. 🔗 [PO Project Page](http://www.aliasgharheidari.com/PO.html)
+- **(RIME) 2023:** A cutting-edge algorithm for robust optimization, designed to handle noisy and dynamic environments. 🔗 [RIME Project Page](http://www.aliasgharheidari.com/RIME.html)
+- **(INFO) 2022:** An innovative optimization technique that integrates information theory concepts for enhanced search capabilities. 🔗 [INFO Project Page](http://www.aliasgharheidari.com/INFO.html)
+- **(RUN) 2021:** A dynamic optimization solution that adapts to changing landscapes and varying problem dimensions. 🔗 [RUN Project Page](http://www.aliasgharheidari.com/RUN.html)
+- **(HGS) 2021:** A high-performance optimization strategy that excels in exploring large and complex search spaces. 🔗 [HGS Project Page](http://www.aliasgharheidari.com/HGS.html)
+- **(SMA) 2020:** A sophisticated optimization method that mimics collaborative behaviors in nature for problem-solving. 🔗 [SMA Project Page](http://www.aliasgharheidari.com/SMA.html)
+- **(HHO) 2019:** A pioneering optimization algorithm inspired by nature, specifically the hunting behavior of Harris hawks. 🔗 [HHO Project Page](http://www.aliasgharheidari.com/HHO.html)
 
 ---
