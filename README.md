@@ -132,7 +132,6 @@ FUNCTION FATA(fobj, lb, ub, dim, N, MaxFEs)
         it ← it + 1
         bestPos ← gBest
     ENDWHILE
-END FUNCTION
 ---
 
 ## 👥 Authors
