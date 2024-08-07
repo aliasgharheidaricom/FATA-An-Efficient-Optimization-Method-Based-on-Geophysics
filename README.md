@@ -11,7 +11,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
 
 <p align="center">
-  <img src="FATA logo.png" alt="FATA optimization algorithm" width="600">
+  <img src="FATA logo.png" alt="FATA optimization algorithm" width="450">
 </p>
 
 <h1 align="center" style="font-family: 'Comic Sans MS', 'Comic Sans', cursive;">
