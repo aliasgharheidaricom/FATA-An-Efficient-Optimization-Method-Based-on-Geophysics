@@ -1,4 +1,14 @@
-# 🌟 FATA Optimization (Version 1.0) 🌟
+#  FATA Optimization (Version 1.0) 
+![GitHub](https://img.shields.io/github/license/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
+![GitHub repo size](https://img.shields.io/github/repo-size/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
+![GitHub language count](https://img.shields.io/github/languages/count/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
+![GitHub last commit](https://img.shields.io/github/last-commit/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
+![GitHub issues](https://img.shields.io/github/issues/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
+![GitHub forks](https://img.shields.io/github/forks/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
+![GitHub stars](https://img.shields.io/github/stars/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
+![GitHub watchers](https://img.shields.io/github/watchers/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
+![GitHub contributors](https://img.shields.io/github/contributors/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
 
 ## 📖 Overview
 Introducing an **efficient** and **innovative** swarm intelligence algorithm: the **Fata Morgana Algorithm (FATA)**. This algorithm is meticulously designed to tackle **complex continuous multi-type optimization problems**. 
