@@ -1,9 +1,7 @@
 # FATA Optimization (Version 1.0)
 
-!FATA
-
 ## Overview
-FATA (Fast and Adaptive Threshold Algorithm) is an efficient optimization method based on geophysics. It provides a powerful approach for solving optimization problems.
+An efficient swarm intelligence algorithm is proposed to solve continuous multi-type optimization problems, named the fata morgana algorithm (FATA). By mimicking the process of mirage formation, FATA designs the mirage light filtering principle (MLF) and the light propagation strategy (LPS), respectively. The MLF strategy, combined with the definite integration principle, drives the algorithmic population to enhance FATA’s exploration capability. The LPS strategy, combined with the trigonometric principle, drives the algorithmic individual to improve the algorithm's convergence speed and exploitation capability. These two search strategies can better use FATA’s population and individual search capabilities. The FATA is compared with a broad array of competitive optimizers on 23 benchmark functions and IEEE CEC 2014 to verify the optimization capability. This work is designed separately for qualitative analysis, exploration and exploitation competence analysis, the analysis of avoiding locally optimal solutions, and comprehensive comparison experiments. The experimental results demonstrate the comprehensiveness and competitiveness of FATA for solving multi-type functions. Meanwhile, FATA is applied to three practical engineering optimization problems to evaluate its performance. Then, the algorithm obtains better results than its counterparts in engineering problems. According to the results, FATA has excellent potential to be used as an efficient computer-aided tool for dealing with practical optimization tasks. Source codes and related files are available at https://aliasgharheidari.com/FATA.html and other websites.
 
 ## Authors
 Ailiang Qi, Dong Zhao, Ali Asghar Heidari, Lei Liu, Yi Chen, Huiling Chen
