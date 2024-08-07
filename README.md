@@ -15,7 +15,7 @@
 </p>
 
 <h1 align="center" style="font-family: 'Comic Sans MS', 'Comic Sans', cursive;">
-  Welcome to [FATA: An Efficient Optimization Method Based on Geophysics ]
+  FATA: An Efficient Optimization Method Based on Geophysics
 </h1>
 
 
