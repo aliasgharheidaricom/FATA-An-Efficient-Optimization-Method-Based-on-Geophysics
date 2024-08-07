@@ -56,7 +56,83 @@ To utilize the FATA optimization algorithm, follow these easy steps:
    - Convergence curve in `cg_curve`
 
 Feel free to delve into and leverage the FATA optimization algorithm for your various optimization endeavors. **Happy optimizing!** 🚀🔍
+FUNCTION FATA(fobj, lb, ub, dim, N, MaxFEs)
+    // Initialize parameters
+    worstInte ← 0
+    bestInte ← ∞
+    gBest ← array of zeros with length dim
+    cg_curve ← empty array
+    gBestScore ← ∞
+    Flight ← initialization(N, dim, ub, lb) // Initialize random solutions
+    fitness ← array of infinities with size N
+    FEs ← 0 // Function evaluations
 
+    // Main loop until maximum function evaluations
+    WHILE FEs < MaxFEs DO
+        FOR i FROM 1 TO N DO
+            // Ensure solutions are within bounds
+            IF Flight[i] > ub THEN
+                Flight[i] ← ub
+            ELSE IF Flight[i] < lb THEN
+                Flight[i] ← lb
+            ENDIF
+            
+            FEs ← FEs + 1
+            fitness[i] ← fobj(Flight[i]) // Evaluate fitness
+            
+            // Greedy selection for global best
+            IF gBestScore > fitness[i] THEN
+                gBestScore ← fitness[i]
+                gBest ← Flight[i]
+            ENDIF
+        ENDFOR
+
+        // Sort fitness to find worst and best
+        Order, Index ← sort(fitness)
+        worstFitness ← Order[N]
+        bestFitness ← Order[1]
+
+        // Apply the mirage light filtering principle
+        Integral ← cumulative integral of Order
+        IF Integral[N] > worstInte THEN
+            worstInte ← Integral[N]
+        ENDIF
+        IF Integral[N] < bestInte THEN
+            bestInte ← Integral[N]
+        ENDIF
+        
+        IP ← (Integral[N] - worstInte) / (bestInte - worstInte + epsilon) // Population quality factor
+
+        // Calculate parameters based on iterations
+        a ← tan(-(FEs / MaxFEs) + 1)
+        b ← 1 / tan(-(FEs / MaxFEs) + 1)
+
+        // Update flight positions
+        FOR i FROM 1 TO N DO
+            Para1 ← a * random(dim) - a * random(dim)
+            Para2 ← b * random(dim) - b * random(dim)
+            p ← (fitness[i] - worstFitness) / (gBestScore - worstFitness + epsilon) // Individual quality factor
+
+            IF random() > IP THEN
+                Flight[i] ← random(dim) * (ub - lb) + lb // Randomly initialize
+            ELSE
+                FOR j FROM 1 TO dim DO
+                    num ← floor(random() * N + 1)
+                    IF random() < p THEN
+                        Flight[i][j] ← gBest[j] + Flight[i][j] * Para1[j] // Light refraction (first phase)
+                    ELSE
+                        Flight[i][j] ← Flight[num][j] + Para2[j] * Flight[i][j] // Light refraction (second phase)
+                        Flight[i][j] ← (0.5 * (arf + 1) * (lb[j] + ub[j]) - arf * Flight[i][j]) // Total internal reflection
+                    ENDIF
+                ENDFOR
+            ENDIF
+        ENDFOR
+
+        cg_curve[it] ← gBestScore
+        it ← it + 1
+        bestPos ← gBest
+    ENDWHILE
+END FUNCTION
 ---
 
 ## 👥 Authors
