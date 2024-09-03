@@ -1,162 +1,205 @@
-# 🌌 **Polar Lights Optimizer: Algorithm and Applications in Image Segmentation and Feature Selection** 🌌
-
-![License](https://img.shields.io/github/license/aliasgharheidaricom/Polar-Lights-Optimizer-Algorithm-and-Applications-in-Image-Segmentation-and-Feature-Selection)
-![Code Size](https://img.shields.io/github/languages/code-size/aliasgharheidaricom/Polar-Lights-Optimizer-Algorithm-and-Applications-in-Image-Segmentation-and-Feature-Selection)
-![Repo Size](https://img.shields.io/github/repo-size/aliasgharheidaricom/Polar-Lights-Optimizer-Algorithm-and-Applications-in-Image-Segmentation-and-Feature-Selection)
-![Language Count](https://img.shields.io/github/languages/count/aliasgharheidaricom/Polar-Lights-Optimizer-Algorithm-and-Applications-in-Image-Segmentation-and-Feature-Selection)
-![Last Commit](https://img.shields.io/github/last-commit/aliasgharheidaricom/Polar-Lights-Optimizer-Algorithm-and-Applications-in-Image-Segmentation-and-Feature-Selection)
-![Issues](https://img.shields.io/github/issues/aliasgharheidaricom/Polar-Lights-Optimizer-Algorithm-and-Applications-in-Image-Segmentation-and-Feature-Selection)
-![Forks](https://img.shields.io/github/forks/aliasgharheidaricom/Polar-Lights-Optimizer-Algorithm-and-Applications-in-Image-Segmentation-and-Feature-Selection)
-![Stars](https://img.shields.io/github/stars/aliasgharheidaricom/Polar-Lights-Optimizer-Algorithm-and-Applications-in-Image-Segmentation-and-Feature-Selection)
-![Watchers](https://img.shields.io/github/watchers/aliasgharheidaricom/Polar-Lights-Optimizer-Algorithm-and-Applications-in-Image-Segmentation-and-Feature-Selection)
-![Contributors](https://img.shields.io/github/contributors/aliasgharheidaricom/Polar-Lights-Optimizer-Algorithm-and-Applications-in-Image-Segmentation-and-Feature-Selection)
+# FATA Optimization (Version 1.0) 
+![GitHub](https://img.shields.io/github/license/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
+![GitHub repo size](https://img.shields.io/github/repo-size/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
+![GitHub language count](https://img.shields.io/github/languages/count/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
+![GitHub last commit](https://img.shields.io/github/last-commit/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
+![GitHub issues](https://img.shields.io/github/issues/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
+![GitHub forks](https://img.shields.io/github/forks/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
+![GitHub stars](https://img.shields.io/github/stars/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
+![GitHub watchers](https://img.shields.io/github/watchers/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
+![GitHub contributors](https://img.shields.io/github/contributors/aliasgharheidaricom/FATA-An-Efficient-Optimization-Method-Based-on-Geophysics)
 
 <p align="center">
-  <img src="https://github.com/aliasgharheidaricom/Polar-Lights-Optimizer-Algorithm-and-Applications-in-Image-Segmentation-and-Feature-Selection/blob/main/polar%20lights%20optimizer%20(PLO)%20image.jpeg" alt="PLO Poster" width="60%" />
-  <br>
-  <em>Polar Lights Optimizer in action</em>
+  <img src="FATA logo.png" alt="FATA optimization algorithm" width="450">
 </p>
 
-## 🔍 **Overview**
+<h1 align="center" style="font-family: 'Comic Sans MS', 'Comic Sans', cursive;">
+  FATA: An Efficient Optimization Method Based on Geophysics
+</h1>
 
-**Polar Lights Optimization (PLO)** is a metaheuristic algorithm inspired by the mesmerizing aurora phenomenon. By simulating high-energy particles influenced by Earth's magnetic field, PLO achieves a balance between local exploitation and global exploration. This method is highly effective in complex optimization tasks such as image segmentation and feature selection.
 
-## ⚙️ **Installation Instructions**
 
-1. **Prerequisites:**
-   - MATLAB (R2017b or later recommended)
 
-2. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/PLO.git
-   cd PLO
-   ```
+## 📖 Overview
+Introducing an **efficient** and **innovative** swarm intelligence algorithm: the **Fata Morgana Algorithm (FATA)**. This algorithm is meticulously designed to tackle **complex continuous multi-type optimization problems**. 
 
-## 🚀 **Usage**
+Inspired by the captivating phenomenon of **mirage formation**, FATA ingeniously implements two key strategies:
+- **Mirage Light Filtering Principle (MLF)**: Enhances exploration through innovative filtering techniques.
+- **Light Propagation Strategy (LPS)**: Accelerates convergence with effective propagation methods.
 
-To run the PLO algorithm, use the MATLAB function:
+The MLF strategy, synergistically combined with the robust definite integration principle, significantly enhances FATA’s remarkable exploration capability. Concurrently, the LPS strategy, artfully integrated with trigonometric principles, empowers each algorithmic individual to markedly improve the algorithm's convergence speed and exceptional exploitation capability. 
 
-```matlab
-[Best_pos, Bestscore, Convergence_curve] = PLO(N, MaxFEs, lb, ub, dim, fobj)
-```
+These two sophisticated search strategies work together to ensure a balanced and effective optimization process.
 
-### **Parameters:**
-- `N`: Number of particles in the swarm
-- `MaxFEs`: Maximum number of function evaluations
-- `lb`: Lower bound of the solution space
-- `ub`: Upper bound of the solution space
-- `dim`: Dimension of the solution space
-- `fobj`: Objective function handle
+FATA has been rigorously compared against a diverse range of competitive optimizers across **23 benchmark functions** and the **IEEE CEC 2014** to validate its outstanding optimization prowess. This groundbreaking work is designed for:
+- Comprehensive qualitative analysis
+- Exploration and exploitation competency evaluation
+- Local optima avoidance strategies
+- Extensive comparative experiments
 
-### **Example:**
-```matlab
-N = 30; % Number of particles
-MaxFEs = 10000; % Maximum function evaluations
-lb = -10; % Lower bound
-ub = 10; % Upper bound
-dim = 2; % Dimension of the problem
-fobj = @(x) sum(x.^2); % Objective function (e.g., sphere function)
+The experimental results compellingly demonstrate the **robustness**, **comprehensiveness**, and **competitiveness** of FATA in effectively solving various multi-type functions. Additionally, FATA has been successfully applied to three challenging practical engineering optimization problems, where it consistently outperforms its counterparts, showcasing its practical utility and effectiveness. 
 
-[Best_pos, Bestscore, Convergence_curve] = PLO(N, MaxFEs, lb, ub, dim, fobj);
-```
+The promising results indicate that FATA possesses remarkable potential as a powerful computer-aided tool for addressing complex practical optimization tasks. Source codes and related files are readily available at the [FATA Project Page](https://aliasgharheidari.com/FATA.html) and other platforms.
 
-## 🧩 **Method**
+---
 
-### **Description**
-Inspired by the aurora phenomenon, PLO models the interaction of solar wind particles with Earth's magnetic field. The algorithm utilizes:
+## 🚀 Key Features
+- **Mirage Light Filtering Principle (MLF)**: Enhances exploration through innovative filtering techniques.
+- **Light Propagation Strategy (LPS)**: Accelerates convergence with effective propagation methods.
+- **Exploration and Exploitation Competence**: Strikes a harmonious balance between exploration and exploitation.
+- **Avoiding Locally Optimal Solutions**: Employs advanced strategies to navigate around local optima.
 
-1. **Gyration Motion**: Simulates spiraling motion around magnetic field lines.
-2. **Aurora Oval Walk**: Mimics the formation of auroral ovals for global exploration.
+---
+## Photo Gallery
+Explore the captivating visuals related to the FATA optimization process and the fascinating phenomenon of mirages:
 
-### **Key Components**
+| Image | Image | Image |
+|-------|-------|-------|
+| ![3D Mirage phenomenon](3D%20Mirage%20phenomenon.jpg) | ![FATA based on the mirage principle](FATA%20based%20on%20the%20mirage%20principle.jpg) | ![FATA optimization process in 3-dimension](FATA%20optimization%20process%20in%203-dimension.jpg) |
+| 3D representation of the mirage phenomenon. | FATA inspired by the mirage principle. | FATA optimization process illustrated in 3D. |
+| ![First refraction process of light](First%20refraction%20process%20of%20light.jpg) | ![Reflection process of light](Reflection%20process%20of%20light.jpg) | ![Second refraction process of light](Second%20refraction%20process%20of%20light.jpg) |
+| Depiction of light's first refraction process. | Insightful view of the light reflection process. | Illustration of the second refraction of light. |
+| ![The formation of the rainbow](The%20formation%20of%20the%20rainbow.jpg) | ![Definite integration to evaluate the curve](a.%20definite%20integration%20to%20evaluate%20the%20curve.jpg) | ![Definite integration to evaluate the curve](b.%20definite%20integration%20to%20evaluate%20the%20curve.jpg) |
+| Image depicting rainbow formation. | Visual explanation of definite integration for curve evaluation. | Another representation of definite integration for curve evaluation. |
 
-1. **Initialization:**
-   - Create an initial population of particles within the bounds.
-   - Evaluate fitness.
+---
 
-2. **Main Loop:**
-   - Update velocities and positions using gyration and aurora oval strategies.
-   - Apply particle collision for escaping local optima.
-   - Update fitness and track the best solution.
+## 🛠 Usage
+To utilize the FATA optimization algorithm, follow these easy steps:
 
-3. **Gyration Motion:**
-   - Models centripetal force around magnetic field lines.
+1. **Set the Objective Function**: Define your objective function in the variable `fobj`.
+2. **Specify Variable Bounds**: Clearly outline the lower (`lb`) and upper (`ub`) bounds of the variables.
+3. **Configure Problem Parameters**: Set the problem dimension, population size (`N`), and maximum number of function evaluations (`MaxFEs`).
+4. **Execute the Optimization Process**: Run the FATA function to initiate the optimization sequence.
+5. **Retrieve Results**: The function will return:
+   - Optimal solution in `bestPos`
+   - Global best score in `gBestScore`
+   - Convergence curve in `cg_curve`
 
-4. **Aurora Oval Walk:**
-   - Simulates elliptical movement with Levy flight.
+Feel free to delve into and leverage the FATA optimization algorithm for your various optimization endeavors. **Happy optimizing!** 🚀🔍
+FUNCTION FATA(fobj, lb, ub, dim, N, MaxFEs)
+    // Initialize parameters
+    worstInte ← 0
+    bestInte ← ∞
+    gBest ← array of zeros with length dim
+    cg_curve ← empty array
+    gBestScore ← ∞
+    Flight ← initialization(N, dim, ub, lb) // Initialize random solutions
+    fitness ← array of infinities with size N
+    FEs ← 0 // Function evaluations
 
-5. **Particle Collision:**
-   - Facilitates escape from local optima through random collisions.
+    // Main loop until maximum function evaluations
+    WHILE FEs < MaxFEs DO
+        FOR i FROM 1 TO N DO
+            // Ensure solutions are within bounds
+            IF Flight[i] > ub THEN
+                Flight[i] ← ub
+            ELSE IF Flight[i] < lb THEN
+                Flight[i] ← lb
+            ENDIF
+            
+            FEs ← FEs + 1
+            fitness[i] ← fobj(Flight[i]) // Evaluate fitness
+            
+            // Greedy selection for global best
+            IF gBestScore > fitness[i] THEN
+                gBestScore ← fitness[i]
+                gBest ← Flight[i]
+            ENDIF
+        ENDFOR
 
-## 📝 **Pseudocode**
+        // Sort fitness to find worst and best
+        Order, Index ← sort(fitness)
+        worstFitness ← Order[N]
+        bestFitness ← Order[1]
 
-```plaintext
-Initialize population X with random positions within bounds [lb, ub]
-Evaluate fitness of each particle in X
-Sort particles based on fitness
-Set Bestpos and Bestscore to the best particle and its fitness
-
-While number of function evaluations (FEs) < MaxFEs
-    Calculate global mean position X_mean
-    Calculate weights w1 and w2 for gyration and aurora oval strategies
-
-    For each particle i in the population
-        Update velocity V[i] using gyration and aurora oval strategies
-        Update position X_new[i] based on V[i]
+        // Apply the mirage light filtering principle
+        Integral ← cumulative integral of Order
+        IF Integral[N] > worstInte THEN
+            worstInte ← Integral[N]
+        ENDIF
+        IF Integral[N] < bestInte THEN
+            bestInte ← Integral[N]
+        ENDIF
         
-        If particle collides (based on probability)
-            Apply collision strategy to X_new[i]
-        
-        Ensure X_new[i] is within bounds [lb, ub]
-        Evaluate fitness of X_new[i]
-        If fitness of X_new[i] < fitness of X[i]
-            Update position X[i] to X_new[i]
-            Update fitness of X[i]
+        IP ← (Integral[N] - worstInte) / (bestInte - worstInte + epsilon) // Population quality factor
 
-    Sort particles based on fitness
-    Update Bestpos and Bestscore if a better solution is found
-    Increment FEs
+        // Calculate parameters based on iterations
+        a ← tan(-(FEs / MaxFEs) + 1)
+        b ← 1 / tan(-(FEs / MaxFEs) + 1)
 
-Return Bestpos and Bestscore
-```
+        // Update flight positions
+        FOR i FROM 1 TO N DO
+            Para1 ← a * random(dim) - a * random(dim)
+            Para2 ← b * random(dim) - b * random(dim)
+            p ← (fitness[i] - worstFitness) / (gBestScore - worstFitness + epsilon) // Individual quality factor
 
-## 🤝 **Contributing**
+            IF random() > IP THEN
+                Flight[i] ← random(dim) * (ub - lb) + lb // Randomly initialize
+            ELSE
+                FOR j FROM 1 TO dim DO
+                    num ← floor(random() * N + 1)
+                    IF random() < p THEN
+                        Flight[i][j] ← gBest[j] + Flight[i][j] * Para1[j] // Light refraction (first phase)
+                    ELSE
+                        Flight[i][j] ← Flight[num][j] + Para2[j] * Flight[i][j] // Light refraction (second phase)
+                        Flight[i][j] ← (0.5 * (arf + 1) * (lb[j] + ub[j]) - arf * Flight[i][j]) // Total internal reflection
+                    ENDIF
+                ENDFOR
+            ENDIF
+        ENDFOR
 
-We welcome contributions! Check out our [Contributing Guidelines](CONTRIBUTING.md) to learn how you can help improve this project.
+        cg_curve[it] ← gBestScore
+        it ← it + 1
+        bestPos ← gBest
+    ENDWHILE
+---
 
-## 📜 **License**
+## 👥 Authors
+- **Ailiang Qi**
+- **Dong Zhao**
+- **Ali Asghar Heidari**
+- **Lei Liu**
+- **Yi Chen**
+- **Huiling Chen**
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+---
 
-## 📚 **References**
+## 📅 Last Update
+**June 8, 2024**
 
-- **PLO Source Code and Documentation:** [Aliasghar Heidari](http://www.aliasgharheidari.com/PLO.html)
-- **Main Paper:** Chong Yuan, Dong Zhao, Ali Asghar Heidari, Lei Liu, Yi Chen, Huiling Chen. "Polar Lights Optimizer: Algorithm and Applications in Image Segmentation and Feature Selection," Neurocomputing - 2024.
+---
 
-## 📬 **Contact Information**
+## 📬 Contact
+We welcome your inquiries! Feel free to reach out to us via email:
+- **Ailiang Qi:** [q17853118231@163.com](mailto:q17853118231@163.com)
+- **Ali Asghar Heidari:** [as_heidari@ut.ac.ir](mailto:as_heidari@ut.ac.ir), [aliasghar68@gmail.com](mailto:aliasghar68@gmail.com)
+- **Huiling Chen:** [chenhuiling.jlu@gmail.com](mailto:chenhuiling.jlu@gmail.com)
 
-For support or inquiries, reach out to:
-- Chong Yuan: [yc18338414794@163.com](mailto:yc18338414794@163.com)
-- Dong Zhao: [zd-hy@163.com](mailto:zd-hy@163.com)
-- Ali Asghar Heidari: [aliasghar68@gmail.com](mailto:aliasghar68@gmail.com)
-- Huiling Chen: [chenhuiling.jlu@gmail.com](mailto:chenhuiling.jlu@gmail.com)
+---
 
-## 📑 **Citation**
+## 📑 Citation
+If you utilize this code, please ensure to cite the primary paper on FATA:
 
-If you use this code, please cite:
-- Chong Yuan, Dong Zhao, Ali Asghar Heidari, Lei Liu, Yi Chen, Huiling Chen. "Polar Lights Optimizer: Algorithm and Applications in Image Segmentation and Feature Selection," Neurocomputing - 2024.
+**Title:** FATA: An Efficient Optimization Method Based on Geophysics  
+**Journal:** Neurocomputing  
+**Year:** 2024  
+**DOI:** [10.1016/j.neucom.2024.128289](https://doi.org/10.1016/j.neucom.2024.128289)
 
-## 🔍 **Comparison with Other Optimization Methods**
+---
 
-Explore comparisons with other methods:
-- [PLO 2024](http://www.aliasgharheidari.com/PLO.html)
-- [FATA 2024](http://www.aliasgharheidari.com/FATA.html)
-- [ECO 2024](http://www.aliasgharheidari.com/ECO.html)
-- [AO 2024](http://www.aliasgharheidari.com/AO.html)
-- [PO 2024](http://www.aliasgharheidari.com/PO.html)
-- [RIME 2023](http://www.aliasgharheidari.com/RIME.html)
-- [INFO 2022](http://www.aliasgharheidari.com/INFO.html)
-- [RUN 2021](http://www.aliasgharheidari.com/RUN.html)
-- [HGS 2021](http://www.aliasgharheidari.com/HGS.html)
-- [SMA 2020](http://www.aliasgharheidari.com/SMA.html)
-- [HHO 2019](http://www.aliasgharheidari.com/HHO.html)
+## 🔍 Comapre FATA with other Optimization Methods
+For comparative analysis, consider exploring these notable optimization methods developed recently:
+
+- **(ECO) 2024:** An advanced optimization framework that enhances performance across various problem classes. 🔗 [ECO Project Page](http://www.aliasgharheidari.com/ECO.html)
+- **(AO) 2024:** A novel approach to optimization challenges, boasting improved convergence rates and robustness. 🔗 [AO Project Page](http://www.aliasgharheidari.com/AO.html)
+- **(PO) 2024:** A powerful optimization methodology focused on solving complex multi-modal functions efficiently. 🔗 [PO Project Page](http://www.aliasgharheidari.com/PO.html)
+- **(RIME) 2023:** A cutting-edge algorithm for robust optimization, designed to handle noisy and dynamic environments. 🔗 [RIME Project Page](http://www.aliasgharheidari.com/RIME.html)
+- **(INFO) 2022:** An innovative optimization technique that integrates information theory concepts for enhanced search capabilities. 🔗 [INFO Project Page](http://www.aliasgharheidari.com/INFO.html)
+- **(RUN) 2021:** A dynamic optimization solution that adapts to changing landscapes and varying problem dimensions. 🔗 [RUN Project Page](http://www.aliasgharheidari.com/RUN.html)
+- **(HGS) 2021:** A high-performance optimization strategy that excels in exploring large and complex search spaces. 🔗 [HGS Project Page](http://www.aliasgharheidari.com/HGS.html)
+- **(SMA) 2020:** A sophisticated optimization method that mimics collaborative behaviors in nature for problem-solving. 🔗 [SMA Project Page](http://www.aliasgharheidari.com/SMA.html)
+- **(HHO) 2019:** A pioneering optimization algorithm inspired by nature, specifically the hunting behavior of Harris hawks. 🔗 [HHO Project Page](http://www.aliasgharheidari.com/HHO.html)
+
+---
