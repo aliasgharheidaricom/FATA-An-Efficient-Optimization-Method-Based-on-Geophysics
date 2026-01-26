@@ -86,7 +86,7 @@ IP=(Integral(N)-worstInte)/(bestInte-worstInte+eps);% Eq.(4) population quality 
          p=((fitness(i)-worstFitness))/(gBestScore-worstFitness+eps);% Parameters of Eq.(5) individual quality factor
          %% Eq.(1) 
          if  rand>IP 
-             Flight(i,:) = (ub-lb).*rand+lb;
+             Flight(i,:) = (ub-lb).*rand(1,dim)+lb;
          else
         for j=1:dim
             num=floor(rand*N+1);
@@ -103,4 +103,5 @@ IP=(Integral(N)-worstInte)/(bestInte-worstInte+eps);% Eq.(4) population quality 
     it=it+1;
     bestPos=gBest;
 end
+
 end
